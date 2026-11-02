@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.chunkramcache.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientChunkCacheMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

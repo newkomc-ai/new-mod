@@ -1,0 +1,15 @@
+chunkramcache/
+├── build.gradle
+├── gradle.properties
+├── settings.gradle
+└── src/main/
+    ├── java/com/example/chunkramcache/
+    │   ├── ChunkRamCacheClient.java
+    │   ├── ChunkCacheManager.java
+    │   ├── CachedChunk.java
+    │   ├── config/ModConfig.java
+    │   └── mixin/ClientChunkCacheMixin.java
+    └── resources/
+        ├── fabric.mod.json
+        ├── chunkramcache.mixins.json
+        └── assets/chunkramcache/lang/en_us.json

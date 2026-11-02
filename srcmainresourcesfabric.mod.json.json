@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkramcache",
+  "version": "${version}",
+  "name": "Chunk RAM Cache",
+  "description": "Кешує чанки поза FOV у RAM та динамічно змінює render distance (клавіша K).",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.chunkramcache.ChunkRamCacheClient"]
+  },
+  "mixins": ["chunkramcache.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
